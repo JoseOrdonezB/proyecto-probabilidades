@@ -1,0 +1,72 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPython history
+.profile
+.ipython/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Logs y dumps
+*.log
+*.out
+*.bak
+*.swp
+*.tmp
+
+# MacOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Archivos de configuración de nbstripout
+.ipynb_stripouts/
+
+# Archivos temporales de JupyterLab (si usas JupyterLab)
+.jupyter/lab/workspaces/
+
+# Archivos de entorno de Conda
+*.conda
+*.env
+
+# Archivos de configuración de herramientas como mypy
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos de lock (opcional, dependiendo del flujo de trabajo)
+Pipfile.lock
+poetry.lock
+
+# Archivos de editor o IDE específicos
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de respaldo de notebooks si guardas a mano
+*.ipynb~
+
+# Carpeta para outputs de notebooks, si la usas
+output/
+
+# Nota: no ignores los notebooks principales!
